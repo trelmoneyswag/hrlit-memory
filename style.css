@@ -1,0 +1,43 @@
+body {
+    background-color: green;
+}
+
+.bigbox {
+    display: flexbox;
+    width:1400px;
+    height: 700px;
+    border: none;
+    
+}
+.mainbox{
+    display: absolute;
+    width: 600px;
+    height: 650px;
+    border: 1px #888833 solid;
+}
+.leftbox {
+    display: flexbox;
+    background-image: url(images/watercolorbrown.jpeg);
+    width: 200px;
+    height: 650px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.rightbox {
+    display: flexbox;
+    width: 200px;
+    height: 650px;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+iframe.mainbox {
+    display: flexbox;
+    width: 600px;
+    height: 650px;
+    padding: 110px;
+    margin-left: 75px;
+}
