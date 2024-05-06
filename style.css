@@ -9,31 +9,68 @@ body {
     border: none;
     
 }
-.mainbox{
+.main11box{
     display: absolute;
     width: 600px;
     height: 650px;
     border: 1px #888833 solid;
+    margin-left: 200px;
 }
-.leftbox {
+.first1box {
     display: flexbox;
-    background-image: url(images/watercolorbrown.jpeg);
     width: 200px;
-    height: 650px;
+    height: 200px;
     float: left;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    margin-top: 100px;
+    margin-left: 200px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+
+
 }
 
-.rightbox {
-    display: flexbox;
+.second1box {
     width: 200px;
-    height: 650px;
+    height: 200px;
     float: right;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    margin-top: 200px;
+    margin-left: 150px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+} 
+.third1box {
+    display: flexbox;
+    width: 200px;
+    height: 200px;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 300px;
+    margin-top: 400px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
 }
 
+.fourth1box {
+    display: flexbox;
+    width: 200px;
+    height: 200px;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 300px;
+    margin-top: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
 iframe.mainbox {
     display: flexbox;
     width: 600px;
@@ -51,5 +88,5 @@ iframe.mainbox {
 .home-text-one{
     position: absolute;
     top: 200px;
-    left: 200px;
+    left: 400px;
   }
