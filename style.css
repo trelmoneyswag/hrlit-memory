@@ -285,3 +285,13 @@ display: block;
     border: none;
     margin-left: 250px;
 }
+
+.references{
+    display: flexbox;
+    float:left;
+    position:absolute;
+    width: 90px;
+    height:90px;
+    margin-left:100px;
+    margin-top: 720px;
+}
