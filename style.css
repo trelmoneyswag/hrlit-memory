@@ -21,9 +21,9 @@ body {
 }
 
 
-.main11box{
+.main1box{
     display: absolute;
-    width: 600px;
+    width: 1000px;
     height: 650px;
     border: 1px #888833 solid;
     margin-left: 200px;
@@ -46,4 +46,74 @@ iframe.mainbox {
     background-repeat: no-repeat;
     background-size:1000px;
     margin-left: 250px;
+}
+.q1container{
+    display: flexbox;
+    flex-direction: column;
+    position: absolute;
+    width:1400px;
+    height: 700px;
+    border: none;
+    background-image: url(images/QUESTION\ 1\ PAGE\ 1.png);
+    background-repeat: no-repeat;
+    background-size:1000px;
+    margin-left: 250px;
+}
+.q1part1box{
+    display:inline-box;
+    float: left;
+    width:250px;
+    height: 300px;
+    border: none;
+    margin-left: 150px;
+    margin-top: 200px;
+    
+}
+
+.q1part2box{
+    float: left;
+    width:250px;
+    height: 300px;
+    border: none;
+    margin-top: 200px;
+    margin-left: 250px;
+   
+  
+    
+}
+.q1part3box{
+    width:250px;
+    height: 300px;
+    border: none;
+    margin-left: 150px;
+    margin-top: 200px;
+    
+}
+
+.q1part4box{
+    display: inline-box;
+    float:left;
+    width:250px;
+    height: 300px;
+    border: none;
+    
+    margin-left: 650px;
+   
+  
+    
+}
+.hide {
+display: none;
+}
+.myDIV:hover + .hide {
+display: block;
+
+}
+
+.hide2 {
+    display: none;
+    }
+.myDIV2:hover + .hide2 {
+display: block;
+
 }
