@@ -25,7 +25,7 @@ body {
     display: absolute;
     width: 1000px;
     height: 650px;
-    border: 1px #888833 solid;
+    border: none;
     margin-left: 200px;
 }
 
