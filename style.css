@@ -26,7 +26,7 @@ body {
     width: 1000px;
     height: 650px;
     border: none;
-    margin-left: 200px;
+    margin-left: 250px;
 }
 
 iframe.mainbox {
@@ -304,4 +304,14 @@ display: block;
     height:90px;
     margin-left:800px;
     margin-top: 620px;
+}
+
+.q1part4mainbox{
+    display: absolute;
+    width: 1000px;
+    height: 650px;
+    border: none;
+    margin-left: 200px;
+    background: url(images/q1pt4\ test.png);
+    background-repeat: no-repeat;
 }
