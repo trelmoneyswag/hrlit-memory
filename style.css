@@ -162,3 +162,37 @@ display: block;
   
     
 }
+.q4container{
+    display: flexbox;
+    flex-direction: column;
+    position: absolute;
+    width:1400px;
+    height: 700px;
+    border: none;
+    background-image: url(images/Question\ 4.png);
+    background-repeat: no-repeat;
+    background-size:1000px;
+    margin-left: 250px;
+}
+.q4pg1container{
+    display: flexbox;
+    flex-direction: column;
+    position: absolute;
+    width:1400px;
+    height: 900px;
+    border: none;
+    background-image: url(images/QUESTION\ 4\ PAGE\ 1.png);
+    background-repeat: no-repeat;
+    background-size:1000px;
+    margin-left: 250px;
+}
+
+.q4individcontainer{
+    display: flexbox;
+    flex-direction: column;
+    position: absolute;
+    width:1400px;
+    height: 900px;
+    border: none;
+    margin-left: 250px;
+}
