@@ -14,7 +14,7 @@ body {
     width:1400px;
     height: 700px;
     border: none;
-    background-image: url(images/scrapbook\ inside.png);
+    background-image: url(images/inside\ the\ scrapbook.\ page\ 2.png);
     background-repeat: no-repeat;
     background-size:1000px;
     margin-left: 250px;
@@ -294,4 +294,14 @@ display: block;
     height:90px;
     margin-left:100px;
     margin-top: 720px;
+}
+
+.turnpage{
+    display: flexbox;
+    float:left;
+    position:absolute;
+    width: 90px;
+    height:90px;
+    margin-left:800px;
+    margin-top: 620px;
 }
